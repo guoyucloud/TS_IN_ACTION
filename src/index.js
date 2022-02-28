@@ -7,6 +7,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // import './function'; // 09 | 函数相关知识点梳理
 // import './class'; // 10 | 类（1）：继承和成员修饰符
 // import './class1'; // 11 | 类（2）：抽象类与多态
-require("./class-interface"); // 12 | 类与接口的关系
+// import './class-interface'; // 12 | 类与接口的关系
+// import './generics'; // 13 | 泛型（1）：泛型函数与泛型接口
+require("./generics1"); // 14 | 泛型（2）：泛型类与泛型约束
 const hello = 'Hello TypeScript';
 document.querySelectorAll('.app')[0].innerHTML = hello;
